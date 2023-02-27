@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
+</script>
 
 <template>
-  <h1>La Mia Prima App Con Vite!</h1>
+  <AppTitle />
+  <AppHero />
 </template>
 
 <style></style>
